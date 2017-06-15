@@ -74,7 +74,6 @@ $.each(pixelesDeGrilla, agregarPixelDeGrilla);
 function cambiarColorIndicador() {
   var $backgroundColor = $(this).css('background-color');
   $('#indicador-de-color').css('background-color', $backgroundColor);
-  $grillaDePixeles.removeClass('cursor-personalizado-goma');
 }
 
 $('.color-paleta').click(cambiarColorIndicador);
